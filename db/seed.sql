@@ -1,5 +1,5 @@
-use employees;
---Insert values to the department table"
+USE employees;
+
 INSERT INTO department
     (name)
 VALUES
@@ -8,7 +8,6 @@ VALUES
     ('Finance'),
     ('Legal');
 
---Insert values to the role table"
 INSERT INTO role
     (title, salary, department_id)
 VALUES
@@ -21,7 +20,7 @@ VALUES
     ('Legal Team Lead',250000, 4),
     ('Lawyer',190000, 4);  
 
---Insert values to the employee table"
+
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES

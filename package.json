@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/luiscruz-24/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/luiscruz-24/Employee-Tracker#readme"
+  "homepage": "https://github.com/luiscruz-24/Employee-Tracker#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0",
+    "mysql": "^2.18.1"
+  }
 }
